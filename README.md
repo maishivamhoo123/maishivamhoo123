@@ -26,9 +26,8 @@ I am a software developer driven by **Problem Solving** and systems reliability.
 * **Memos ([#5323](https://github.com/usememos/memos/pull/5323))**: Enhanced UI accessibility and dark-mode contrast for improved user experience.
 
 ### 🧰 Tech Stack
-* **Languages:** Go (Golang), TypeScript, JavaScript, C++
-* **Tools:** Git, Docker, Kubernetes, Linux/Bash, PostgreSQL
-* **Interests:** Distributed Systems, Cloud-Native Tooling, API Design
+* **Languages:** Go (Golang), Java, JavaScript
+* **Tools:** Git, Docker, Kubernetes, Linux/Bash
 
 ### 🤝 Connect with me
 * **GitHub:** [@maishivamhoo123](https://github.com/maishivamhoo123)
