@@ -28,6 +28,63 @@ I am a software developer driven by **Problem Solving** and systems reliability.
 * **Project-HAMi ([#1628](https://github.com/Project-HAMi/HAMi/pull/1628))**: Fixed Prometheus metric cardinality explosion by optimizing container memory descriptor labels, reducing excessive time-series generation and improving monitoring stability.
 
 ---
+## Projects
+# ⚖️ DSA-Powered HTTP Load Balancer (Go)
+
+A high-performance Layer 7 HTTP Load Balancer built in Go.  
+Implements a Min-Heap (Priority Queue) to efficiently route traffic to the least-loaded backend server.
+
+## 🚀 Features
+
+- Least Connections algorithm using Min-Heap
+- O(1) best-server lookup (heap root)
+- O(log N) rebalancing on connection updates
+- Concurrency-safe with sync.RWMutex
+- Active health checking (self-healing nodes)
+- Reverse proxy using net/http/httputil
+- Config-driven backend registration
+- Real-time status dashboard
+
+## 🧠 Core Idea
+
+Instead of scanning all servers (O(N)), the load balancer maintains a Min-Heap
+where priority = active connections.
+
+- Peek root → Best server (O(1))
+- Increment/Decrement connections → heap.Fix() (O(log N))
+
+This ensures scalable traffic distribution as backend pool grows.
+
+# 🤖 Microservices AIOps Platform
+
+An end-to-end AIOps platform built with microservices architecture.
+Detects anomalies, predicts incidents, and performs automated root cause analysis (RCA) in real time.
+
+## 🏗 Architecture
+
+Services:
+- API Gateway (Go)
+- Auth Service (Go)
+- Worker Service (Go)
+- Anomaly Detector (Python - Isolation Forest)
+- Incident Predictor (XGBoost)
+- RCA Service
+- Prometheus + Grafana + Loki stack
+
+All services run via Docker Compose.
+
+## ✨ Features
+
+- Real-time anomaly detection (Isolation Forest)
+- Incident prediction using XGBoost
+- Automated Root Cause Analysis (log + metric correlation)
+- Prometheus metrics scraping
+- Centralized logging via Loki
+- Grafana dashboards
+- Synthetic traffic & chaos simulation
+
+
+---
 
 ## 🧰 Tech Stack
 * **Languages:** Go (Golang), Java, JavaScript
