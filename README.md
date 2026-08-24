@@ -1,6 +1,6 @@
 # Hi, I'm Shivam Kumar 👋
 
-**HAMi Ambassador · Community Leadership @ [Project-HAMi](https://github.com/Project-HAMi) (CNCF Incubating) · Go / Kubernetes / GPU Scheduling**
+**HAMi Ambassador  @ [Project-HAMi](https://github.com/Project-HAMi) (CNCF Incubating) · Go / Kubernetes / GPU Scheduling**
 
 45+ merged PRs across HAMi, Google, gRPC, Kubernetes-SIGs, Apache & NVIDIA ecosystem projects. I build reliable backend systems in Go and contribute to cloud-native GPU infrastructure.
 
